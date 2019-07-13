@@ -37,9 +37,9 @@ end
 
 # Define your play method below
 def play(board)
-  turn(board) = 0
-    until turn(board) == 9
-      puts "calls turn nine times"
-turn(board) += 1
+  counter = 0
+    until counter == 9
+turn(board)
+counter += 1
 end
 end
